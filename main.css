@@ -1,0 +1,105 @@
+:root{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    height: 15em;
+}
+
+.main-container{
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.top p{
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 0.3em;
+}
+
+.top{
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.scoring{
+    padding: 0.5em;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.score{
+    margin: 0.2em 0;
+    font-size: 1.8em;
+}
+
+.scoring p{
+    font-size: 0.8em;
+}
+
+select{
+    border: 1px solid #bdbdbd;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+select:hover{
+    background-color: #e6e6e6;
+}
+
+.buttons{
+    display: flex;
+}
+
+button{
+    flex: 1;
+    border: 1px solid white;
+    border-radius: 0.2em;
+    color: white;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.player1{
+    background-color: #00bd94;
+}
+
+.player1:hover{
+    background-color: #009575;
+}
+
+.player2{
+    background-color: #2593ca;
+}
+
+.player2:hover{
+    background-color: #1f6d95;
+}
+
+.reset{
+    background-color: #ff4848;
+}
+
+.reset:hover{
+    background-color: #c23636;
+}
+
+.winner{
+    color: green;
+}
+
+.loser{
+    color: red;
+}
+
+.disabled{
+    background: -webkit-linear-gradient();
+}
